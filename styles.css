@@ -1,0 +1,24 @@
+body{
+  font-family: "SF Pro Display", serif;
+  background-color: #006769;
+  color: white;
+}
+#container{
+  display: flex;
+  flex-direction: column;
+}
+#container > #white-div{
+  height: 100px;
+  width: 800px;
+  background-color: #FFFFFF;
+}
+#container > #blue-div{
+  height: 100px;
+  width: 800px;
+  background-color: #1C3578;
+}
+#container > #red-div{
+  height: 100px;
+  width: 800px;
+  background-color: #E4181C;
+}
